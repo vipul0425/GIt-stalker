@@ -73,7 +73,7 @@ class Ui {
         let output = '';
         user.forEach(data => {
             
-            output += `<li class="list-group-item d-flex justify-content-between align-items-center fs-4">
+            output += `<li class="list-group-item d-flex justify-content-between align-items-center fs-4 overflow-scroll">
             <a href="${data.html_url}" target="_blank">${data.name}</a>
             <div>
                 <span class="badge bg-success mb-2 mb-lg-0">Stars : ${data.stargazers_count}</span>
